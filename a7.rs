@@ -13,17 +13,17 @@
 enum Color {
   Black,
   White,
-  Gray_Thing
+  GrayThing
 }
 
 fn print_color_name(color: Color) {
   match color {
     Color::Black => println!("Black"),
     Color::White => println!("White"),
-    Color::Gray_Thing => println!("Gray_Thing"),
+    Color::GrayThing => println!("Gray_Thing"),
   }
 } 
 
 fn main() {
-  print_color_name(Color::Gray_Thing)
+  print_color_name(Color::GrayThing)
 }

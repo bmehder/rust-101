@@ -9,7 +9,7 @@
 // * Use the "{:?}" token in the println macro to display the result
 
 fn sum(a: i32, b: i32) -> i32 {
-  return a + b;
+  a + b
 }
 
 fn display_result(result: i32) {

@@ -14,7 +14,7 @@ fn coordinate() -> (i32, i32) {
 }
 
 fn main() {
-  let (x, y) = coordinate();
+  let (_, y) = coordinate();
 
   if y > 5 {
     println!("greater than 5");

@@ -28,7 +28,7 @@ fn main() {
     Person {
       age: 9,
       name: "Lewis".to_owned(),
-      colour: "Black".to_owned()
+      colour: "Silver".to_owned()
     },
     Person {
       age: 7,

@@ -46,6 +46,6 @@ fn main() {
   
   match younger {
     Ok(younger) => println!("{} is {}", younger.name, younger.age),
-    Err(e) => println!("{e}")
+    Err(e) => println!("{:?}", e)
   }
 }
